@@ -1,0 +1,15 @@
+javascript
+const menuBtn = document.getElementById('menu-btn')
+const navbar = document.getElementById('navbar')
+
+menuBtn.addEventListener('click', () => {
+    navbar.classList.toggle('active')
+})
+
+
+const loginBtn = document.querySelector('.login-btn')
+
+loginBtn.addEventListener('click', () => {
+    alert('Bem-vindo ao Aprender+ 🚀')
+})
+addEventListener
